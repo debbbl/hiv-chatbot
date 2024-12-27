@@ -70,7 +70,7 @@ class Chatbot:
                 },
                 {
                     "role": "user",
-                    "content": f"Based on this question: '{query}', generate 3 relevant follow-up questions that user might want to ask."
+                    "content": f"Based on this question: '{query}', generate 3 relevant follow-up questions that user might want to ask (must think from user perspective)."
                 }
             ],
             model="llama3-8b-8192",
