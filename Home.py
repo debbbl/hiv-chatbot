@@ -10,6 +10,8 @@ def main():
     )
     setup_navigation()
     setup_header()
+
+    st.image("images.jpg", width=300)
     
     st.title("Welcome to HIV Information Assistant")
     
