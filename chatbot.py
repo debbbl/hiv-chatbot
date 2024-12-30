@@ -42,9 +42,7 @@ class Chatbot:
                     "content": (
                         f"Answer the following question based on the provided context. "
                         f"Keep your response brief, clear, and precise. "
-                        f"If the user greets you, respond with a warm and friendly message, e.g., "
-                        f"If the question is not related to HIV, respond with: "
-                        f"'I'm here to assist with HIV-related questions. Please feel free to ask anything about HIV, and I’ll do my best to help you.'\n\n"
+                        f"If the user greets you, respond warmly and politely, without adding commentary or explanations. "
                         f"Context:\n{context}\n\n"
                         f"Question: {query}\nAnswer:"
                     )
